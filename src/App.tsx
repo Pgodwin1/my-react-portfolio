@@ -18,7 +18,7 @@ function App() {
       {/* <TypingAnimation /> */}
       <SecondBlock />
       <ThirdBlock />
-      <FourthBlock />
+      {/* <FourthBlock /> */}
       <FifthBlock />
       <Portfolio />
       <SixthBlock />

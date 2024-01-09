@@ -1,9 +1,12 @@
 import styled from 'styled-components';
+import eagwall from '../assets/eagwall.png'
+import expe from "../assets/expe.png"
+import hori from "../assets/hori.png"
 
 const Portfolio = () => {
   return (
     <Background id="Portfolio">
-        <HeadText>
+      <HeadText>
         <p>
           <b>
             My <span>Portfolio</span>
@@ -12,37 +15,43 @@ const Portfolio = () => {
       </HeadText>
 
       <Box>
-          <InsideBox>
-          
-          </InsideBox>
+        <InsideBox>
+          <a href="https://elegance-gallery.netlify.app">
+            <img src={eagwall} alt="" style={{ width: "100%" }} />
+          </a>
+        </InsideBox>
 
-          <InsideBox>
-            
-          </InsideBox>
+        <InsideBox>
+          <a href="https://github.com/Pgodwin1/package-tracker.git">
+          <img src={expe} alt="" style={{ width: "100%" }} />
+          </a>
+        </InsideBox>
 
-          <InsideBox>
-          
-          </InsideBox>
+        <InsideBox>
+          <a href="https://github.com/Pgodwin1/real-estate-app.git">
+          <img src={hori} alt="" style={{ width: "100%" }} />
+          </a>
+        </InsideBox>
 
-        </Box>
+      </Box>
 
 
-        <Box>
-          <InsideBox>
-          
-          </InsideBox>
+      {/* <Box>
+        <InsideBox>
+          <img src={eagwall} alt="" style={{ width: "100%" }} />
+        </InsideBox>
 
-          <InsideBox>
-            
-          </InsideBox>
+        <InsideBox>
+          <img src={eagwall} alt="" style={{ width: "100%" }} />
+        </InsideBox>
 
-          <InsideBox>
-          
-          </InsideBox>
+        <InsideBox>
+          <img src={eagwall} alt="" style={{ width: "100%" }} />
+        </InsideBox>
 
-        </Box>
+      </Box> */}
 
-      
+
     </Background>
   )
 }
@@ -52,7 +61,7 @@ export default Portfolio
 
 const Background = styled.div`
   width: 100%;
-  height: 800px;
+  height: 500px;
   background-color: #170550;
 
   @media screen and (max-width: 768px) {
@@ -133,16 +142,15 @@ const Box = styled.div`
 `
 
 const InsideBox = styled.div`
-background-color: white;
-width: 275px;
-height: 200px;
-position: relative;
-overflow: hidden;
-border-radius: 20px;
-justify-content: center;
-text-align: center;
-padding: 10px;
-transition: transform 0.3s ease;
+    background-color: white;
+    width: 275px;
+    height: 200px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 20px;
+    justify-content: center;
+    text-align: center;
+    transition: transform 0.2s ease;
 
   &:hover {
     transform: scale(1.1);
@@ -162,6 +170,8 @@ span{
 }
 
 img{
-  width: 100px;
+  width: 110%;
+  height: 115%;
+  overflow: hidden;
 }
 `

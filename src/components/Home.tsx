@@ -5,28 +5,28 @@ import { FaSquareInstagram } from "react-icons/fa6";
 import { useEffect, useState } from "react";
 
 const FirstBlock = () => {
-  const handleFacebook = () => {
-    const facebookProfileUrl = "https://www.facebook.com/arinzechukwu.gideon";
-    window.open(facebookProfileUrl, "_blank");
-  };
+  // const handleFacebook = () => {
+  //   const facebookProfileUrl = "https://www.facebook.com/arinzechukwu.gideon";
+  //   window.open(facebookProfileUrl, "_blank");
+  // };
 
   const handleLinkedIn = () => {
-    const linkedInProfileUrl = "https://www.linkedin.com/in/gideon-arinzechukwu-1171aa204/";
+    const linkedInProfileUrl = "https://www.linkedin.com/in/godwinokhakhayo";
     window.open(linkedInProfileUrl, "_blank");
   };
 
   const handleGitHub = () => {
-    const gitHubProfileUrl = "https://github.com/GideonAC";
+    const gitHubProfileUrl = "https://github.com/pgodwin1";
     window.open(gitHubProfileUrl, "_blank");
   };
 
   const handleTwitter = () => {
-    const twitterProfileUrl = "https://x.com/Arinzechukwugi1?t=DBnFN1gNc0vwhlZkpqOKbA&s=09";
+    const twitterProfileUrl = "https://";
     window.open(twitterProfileUrl, "_blank");
   };
 
   const handleIG = () => {
-    const iGProfileUrl = "https://instagram.com/gideon_arinzechukwu?igshid=YzAwZjE1ZTI0Zg%3D%3D&utm_source=qr";
+    const iGProfileUrl = "https://";
     window.open(iGProfileUrl, "_blank");
   };
 
@@ -54,8 +54,8 @@ const FirstBlock = () => {
       <MainDiv>
         <TextBox>
           <h1 className="hello"> {text} </h1>
-          <h1 className="fName">Gideon</h1>
-          <h1 className="lName">Arinzechukwu</h1>
+          <h1 className="fName">Godwin</h1>
+          <h1 className="lName">Okhakhayo</h1>
           <h1 className="dev">a Software Developer</h1>
           <Icons>
             <button>
@@ -72,7 +72,7 @@ const FirstBlock = () => {
 
             <div className="socialIcons">
             <BsFacebook
-                onClick={handleFacebook}
+                // onClick={handleFacebook}
               />
             </div>
 

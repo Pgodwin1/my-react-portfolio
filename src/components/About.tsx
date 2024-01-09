@@ -13,12 +13,12 @@ const SecondBlock = () => {
 
       <Box>
         <Profile>
-          <img src="src/images/profile-pic.jpeg" alt="" />
+          <img src="src/images/myprofile.jpeg" alt="" />
         </Profile>
 
         <Text>
           <p>
-            I'm a Node.JS Software Developer on a mission to bring innovation to the world of tech. With a Bachelor's degree in Anatomy from Chukwuemeka Odumegwu Ojukwu University, My smooth transition into the ever-evolving world of Tech is due to my keen and unwavering interest in implementing innovative ideas in problem solving. <br />
+            I'm a Node.JS Software Developer on a mission to bring innovation to the world of tech. With a Bachelor's degree in Statistics from Alex-Ekwueme Federal University Ndufu Alike, My smooth transition into the ever-evolving world of Tech is due to my keen and unwavering interest in implementing innovative ideas in problem solving. <br />
 
             I thrive on crafting cutting-edge web applications that not only meet but exceed expectations. From frontend to backend, I've got a solid grip on technologies like JavaScript, React, Node.JS, TypeScript, Docker, GraphQL, MongoDB, and more – showcasing my versatility in the vast MERN stack. My continuous learning ability has been my reason of staying updated in the industry trends. <br />
 
@@ -38,7 +38,7 @@ export default SecondBlock;
 
 const Background = styled.div`
   width: 100%;
-  height: 800px;
+  height: 880px;
   background-color: #170550;
 
   @media screen and (max-width: 768px) {
@@ -138,7 +138,7 @@ const Profile = styled.div`
 
 const Text = styled.div`
   width: 50%;
-  height: 410px;
+  height: 400px;
 
   p {
     color: white;

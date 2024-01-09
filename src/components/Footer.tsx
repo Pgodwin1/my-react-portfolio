@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <FooterDiv>
         <p>
-            <span>&copy;</span> 2022 | All Rights Reserved by Gidlify
+            <span>&copy;</span> 2022 | All Rights Reserved by Godwin
         </p>
     </FooterDiv>
   )

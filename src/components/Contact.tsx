@@ -16,10 +16,10 @@ const SixthBlock = () => {
       <Box>
         <Icons>
           <p>
-            <FaPhone /> <span>+234-7061904384</span>
+            <FaPhone /> <span>+234-8101592329</span>
           </p>
           <p>
-            <IoMail /> <span id="mail">arinzechukwugideon@gmail.com</span>
+            <IoMail /> <span id="mail">godwinokhakh@gmail.com</span>
           </p>
           <p>
             <FaLocationArrow /> <span>Lagos State, Nigeria</span>

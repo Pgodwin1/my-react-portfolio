@@ -25,7 +25,7 @@ const NavBar = () => {
   return (
     <Nav>
       <Logo>
-        <p>Gidlify</p>
+        <p>Godwin</p>
       </Logo>
 
       {showNav && (
@@ -35,12 +35,7 @@ const NavBar = () => {
               {link}
             </a>
           ))}
-          {/* <a href="#About">About</a>
-          <a href="#Services">Services</a>
-          <a href="#Experience">Work Experience</a>
-          <a href="#Skills">Skills</a>
-          <a href="#Portfolio">Portfolio</a>
-          <a href="#Contact">Contact</a> */}
+         
         </MobileNav>
       )}
 
@@ -48,13 +43,7 @@ const NavBar = () => {
         {navLinks.map((link) => (
           <a href={`#${link}`}>{link}</a>
         ))}
-        {/* <a href="#Home">Home</a>
-        <a href="#About">About</a>
-        <a href="#Services">Services</a>
-        <a href="#Experience">Work Experience</a>
-        <a href="#Skills">Skills</a>
-        <a href="#Portfolio">Portfolio</a>
-        <a href="#Contact">Contact</a> */}
+       
       </NavButtons>
       {showNav ? (
         <FaTimes onClick={toggleNav} className="humbarg" />
@@ -163,29 +152,3 @@ const MobileNav = styled.div`
     display: flex;
   }
 `;
-
-const Hamburger = styled.div`
-  display: none;
-
-  @media screen and (max-width: 768px) {
-    display: block;
-    font-size: 1.5rem;
-    cursor: pointer;
-  }
-
-  @media screen and (max-width: 600px) {
-    display: block;
-    font-size: 1.5rem;
-    cursor: pointer;
-  }
-`;
-
-// const Hamburger = styled.span`
-//   display: none;
-//   font-size: 30px;
-//   vertical-align: middle;
-//   cursor: pointer;
-//   @media (max-width: 768px) {
-//     display: block;
-//   }
-// `;
