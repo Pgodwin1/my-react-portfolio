@@ -24,7 +24,7 @@ COPY package*.json yarn.lock ./
 
 RUN yarn install --only=production 
 
-COPY --from=development /app/dist ./dist
+COPY --from=development /app ./dist
 
 EXPOSE 5174
 
