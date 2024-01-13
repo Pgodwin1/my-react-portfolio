@@ -1,7 +1,4 @@
 import styled from 'styled-components';
-import eagwall from '../assets/eagwall.png'
-import expe from "../assets/expe.png"
-import hori from "../assets/hori.png"
 
 const Portfolio = () => {
   return (
@@ -17,19 +14,19 @@ const Portfolio = () => {
       <Box>
         <InsideBox>
           <a href="https://elegance-gallery.netlify.app">
-            <img src={eagwall} alt="" style={{ width: "100%" }} />
+            <img src="src/assets/eagwall.png" alt="" style={{ width: "100%" }} />
           </a>
         </InsideBox>
 
         <InsideBox>
           <a href="https://github.com/Pgodwin1/package-tracker.git">
-          <img src={expe} alt="" style={{ width: "100%" }} />
+          <img src="src/assets/expe.png" alt="" style={{ width: "100%" }} />
           </a>
         </InsideBox>
 
         <InsideBox>
           <a href="https://github.com/Pgodwin1/real-estate-app.git">
-          <img src={hori} alt="" style={{ width: "100%" }} />
+          <img src="src/assets/hori.png" alt="" style={{ width: "100%" }} />
           </a>
         </InsideBox>
 

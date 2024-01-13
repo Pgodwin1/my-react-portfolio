@@ -1,9 +1,9 @@
-# fly.toml app configuration file generated for my-react-portfolio on 2024-01-13T09:05:45+01:00
+# fly.toml app configuration file generated for my-react-portfolio-white-glade-1656 on 2024-01-13T10:21:25+01:00
 #
 # See https://fly.io/docs/reference/configuration/ for information about how to use this file.
 #
 
-app = "my-react-portfolio"
+app = "my-react-portfolio-white-glade-1656"
 primary_region = "ams"
 
 [build]
