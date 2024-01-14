@@ -1,9 +1,23 @@
 import styled from "styled-components";
+import html from "../images/html.png";
+import icon from "../images/icon-javscript.svg";
+import icont from "../images/icon-typescript.svg";
+import iconr from "../images/icon-react.svg";
+import iconn from "../images/icon-nodejs.svg";
+import icone from "../images/icon-express.svg";
+import iconnxt from "../images/icon-nextjs.svg";
+import icontail from "../images/icon-tailwindcss.svg";
+import iconpost from "../images/icon-postgresql.svg";
+import iconmongo from "../images/mongoDB.svg";
+import iconmysql from "../images/mysql.jpeg";
+import icongraph from "../images/GraphQL_Logo.svg.png";
+import icongit from "../images/icon-git.svg";
+import icondocker from "../images/docker.png";
 
 const Icons = [
   {
     id: 1,
-    imageUrl: <img src="src/images/html.png" alt="html" />,
+    imageUrl: <img src={html} alt="html" />,
     name: "HTML & CSS",
   },
   // {
@@ -13,67 +27,67 @@ const Icons = [
   // },
   {
     id: 3,
-    imageUrl: <img src="src/images/icon-javscript.svg" alt="javascript" />,
+    imageUrl: <img src={icon} alt="javascript" />,
     name: "JavaScript",
   },
   {
     id: 4,
-    imageUrl: <img src="src/images/icon-typescript.svg" alt="typescript" />,
+    imageUrl: <img src={icont}alt="typescript" />,
     name: "TypeScript",
   },
   {
     id: 5,
-    imageUrl: <img src="src/images/icon-react.svg" alt="react" />,
+    imageUrl: <img src={iconr} alt="react" />,
     name: "React",
   },
   {
     id: 6,
-    imageUrl: <img src="src/images/icon-nodejs.svg" alt="node" />,
+    imageUrl: <img src={iconn} alt="node" />,
     name: "Node.Js",
   },
   {
     id: 7,
-    imageUrl: <img src="src/images/icon-express.svg" alt="express" />,
+    imageUrl: <img src={icone} alt="express" />,
     name: "Express",
   },
   {
     id: 8,
-    imageUrl: <img src="src/images/icon-nextjs.svg" alt="nextjs" />,
+    imageUrl: <img src={iconnxt} alt="nextjs" />,
     name: "Next.Js",
   },
   {
     id: 9,
-    imageUrl: <img src="src/images/icon-tailwindcss.svg" alt="tailwindcss" />,
+    imageUrl: <img src={icontail} alt="tailwindcss" />,
     name: "Tailwindcss",
   },
   {
     id: 10,
-    imageUrl: <img src="src/images/icon-postgresql.svg" alt="postgresql" />,
+    imageUrl: <img src={iconpost} alt="postgresql" />,
     name: "PosggreSQL",
   },
   {
     id: 11,
-    imageUrl: <img src="src/images/mongoDB.svg" alt="mongoDB" />,
+    imageUrl: <img src={iconmongo} alt="mongoDB" />,
     name: "MongoDB",
   },
   {
     id: 12,
-    imageUrl: <img src="src/images/mysql.jpeg" alt="mysql" />,
+    imageUrl: <img src={iconmysql} alt="mysql" />,
     name: "MySQL",
   },
   {
     id: 13,
-    imageUrl: <img src="src/images/GraphQL_Logo.svg.png" alt="graphql" />,
+    imageUrl: <img src={icongraph} alt="graphql" />,
     name: "GraphQL",
   },
   {
     id: 14,
-    imageUrl: <img src="src/images/icon-git.svg" alt="git" />,
+    imageUrl: <img src={icongit} alt="git" />,
     name: "Git",
   },
   {
     id: 15,
-    imageUrl: <img src="src/images/docker.png" alt="docker" />,
+    imageUrl: <img src={icondocker} alt="docker" />,
     name: "Docker",
   }
 ];
